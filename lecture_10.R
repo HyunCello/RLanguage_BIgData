@@ -9,8 +9,8 @@
 
 # cast 이용, 엑셀의 피벗팅을 하듯 자료를 변환
 # melt된 aqm을 이용하여 "~"를 y, x축의 dimension과 measure에 해당하는 변수값 표시
-install.packages("reshape2")
-a <- cast(aqm, day ~ month ~ variable)
+# install.packages("reshape2")
+# a <- cast(aqm, day ~ month ~ variable)
 
 
 
@@ -26,3 +26,19 @@ a <- cast(aqm, day ~ month ~ variable)
 
 
 # data.table
+
+
+
+# 데이터 탐색
+
+
+
+# 결측값 처리
+
+
+
+# 이상값 검색
+
+
+x <- rnorm(100)
+boxplot(x)
