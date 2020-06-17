@@ -37,6 +37,10 @@ matrix(x, nrow = 2, ncol = 3, byrow = T)
 
 matrix(c(1,2,3,4,5,6), nrow = 2, ncol = 3)
 
+y <- c(1,2,3,4,5,6)
+array(y,dim=c(2,2,3))
+
+
 
 # 리스트
 
