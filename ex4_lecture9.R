@@ -153,18 +153,26 @@ summary(a)    # 요약
 
 # 데이터 파악 함수
 
-# view
+
+# view(ex)
 # str
 # dim
-# ls
+# ls()
 
 # 변수명 변경
 
-# rename
+#install.packages("dplayr")
+#library(dplyr)
+
+# rename(data,oldname = newname , oldname = newname) -> can't change variable
+# exdata1 <- rename(adasdasas)
 
 # 파생변수 생성
 
 # 데이터 세트$새 파생 변수명 <- 데이터 세트$ 기존 변수명 + 데이터세트$기존 변수명
+
+# exdata1$AMT <- exdata1$Y16_AMT + exdata1$Y17_AMT
+# can math
 
 # 변수 변환 방식
 
